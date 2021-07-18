@@ -1,0 +1,21 @@
+
+Q: when to use OAQ ?
+
+Just use it to take detail notes when you study.
+
+show me the code:
+
+    (print "AAAAAAAAAAAA")
+    (string-append "1" "2")
+
+
+
+Q: local binding: let (docs.racket-lang.org)
+
+syntax:
+
+    (let ([id val-expr] ...) body ...+)
+    (let proc-id ([id init-expr] ...) body ...+)
+
+The first form evaluates the val-exprs left-to-right, creates a new location for each id, 
+and places the values into the locations. It then evaluates the bodys, in which the ids are bound. 
